@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+  
+  </head>
+  <body>
+ 
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Pagina web con bootstrap</p>
+    </header>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">Contactos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+            </form>
+          </div>
+
+        </div>
+      </nav>
+
+
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/08/dota-2.jpg" class="d-block w-100" alt="">
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://img.redbull.com/images/q_auto,f_auto/redbullcom/2022/8/1/lcxz5zfkc0lwece40oae/dota2" class="d-block w-100" alt="...">
+          </div>
+ 
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://clan.akamai.steamstatic.com/images//3703047/ac42f8f2e82ae77096e5d7427762abed7df17c33.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+        
+     
+
+
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Todo lo que debes saber para comenzar a jugar Dota 2 </h1>
+     <p class="p-3  fs-4">
+         <span class="text-primary">Conviertete en profesional.</span> Dota 2 puede ser intimidante. Es uno de los videojuegos más populares del mundo y, al mismo tiempo, muy poco amigable con los principiantes. Por eso, aquí queremos compartir una guía para comenzar a jugar Dota 2.
+         Que la fuerza te acompañe.        
+     </p>   
+                  
+  
+    </section>
+
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="https://i.redd.it/b9ai1vxxlpqa1.png" alt="desarrollo"   width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Escoge un Rol</h3>
+                <p class="px-4">Como en todo deporte por equipos, en Dota 2 cada jugador debe asumir un rol particular que tiene ciertas responsabilidades.
+                  Hay más de 10 roles posibles. Algunos están claramente definidos y estandarizados. En cambio, otros roles son más difusos o surgieron en los últimos tiempos.</p>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMWFRUXFxcVFRUVFxcVFRgXFRUXGBUVFhUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4AMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUGB//EADYQAAEDAgQEAwcEAgIDAAAAAAEAAhEDIQQSMUETUWFxBYGRIjKhscHh8BRCUtEG8WJyI6Ky/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/EAC8RAAICAQQBAwEHBAMAAAAAAAABAhEDBBIhMUEFE1FxIjJhobHB8IHR4fEUQpH/2gAMAwEAAhEDEQA/APiIYhmwuEFaJZfCCUNzJwQlDcXwQlDcycEJQ3MnBCUNzJwQlDcTghKG4nBCUNxOCEobicEJQ3E4IShuJwQlDcTghKG4nBCUNxOCEobicEJQ3E4IShuGUMM0zM2Vobijhx1Uobifpx1ShuK/TjqlDcyfpwlDcTgDqlDcTgDqlDcwjhR1ShuFV6IAkIyp2WzRCMIBUgSEIhasiiaNOEly0EGFaowGKSAnCQE4RShZXDKULJwylCycMpQsnDPJKFglRuu2aUZPpFhsoR8cMvhlWiWVlShYQpJQss0k4JYWEbc9ghWMq0gLyjoit8IU1s7hTh+TTjJdoPgFWjNintjVQoD3gKN0ajFy6ISl0xGDabXgMVQTAVsm1pWKxYt5qMsQGaBER9hhUg2nTlVAc6nAB5EH0IWZ8xZ0wtLJFv5RqxuJY9mVpkkttB5iV4sOOamm0fd12qwzwSjGSb4/UAUgvefnS+EEBOEgJwggJwkBOEgK4YVBfCUAWErMZmDjEukWOkBePUY5SlaR9z0zU4seJqcqd/2Fhoc5zhoXW9AvRhTUEmfN1s4zzylF8BcJdDylGkEBBSQEfSshQRThwDYlxIkydBKxOeyO47afC8+RY06suu0scwvLYzbA2gLzvL7sWkj6MdH/AMTLCc5cX+weLxDH5AwyQ6THKCs6fHKMraOvqeoxZMKUHbv+5IXuPgicRTnla99FmUbVHTFk2SurCwmHGVz3D3gYHTovDkm7UV4P0Gnwx2SySX3vBWFwphzXiHECJ5dx1VyZbaafRjS6RxhOE1Tf6GRlK0QAWkgu8+S9EU291nzM04xi8TjyvIONHs+a6s8kexdPQKBj6DVohrAhAC6qhChW6q0CGugBOIKAY2oYQguSlFstrnIA6jjCEF5uZhKLYfEMWB9EAt1Z42KAcX9VALfWO1+wVBZxH3QBCorRCnVJBhSihU3FzgRYtk3FriP7WJw3qmdsGZ4JrIg6+ZzmZ8pGbQCNRvdeeWH24tpn0ceteqywhNKr/YPF0mNyZAAc0GOWVyxppSc+T0eq48ccKcUrv9mWQvcfnjNihJa3mb9QFzyy2xPVpMfuZEma2HI9rblrhF4sQvnv7UW/KP0sW8c4x8P8huLcZa0WzankAswXbZ0zt3GC8/kc7EMyv6O56yF7cE7VHwvUcG2W9GbHe75ruz5sexVJtgiD7N1BsKkI8oQTUVoIgplKFkFMpQsOwVINCAF87IAHVCgLplxFhPWygG0sPPzki8/nwQNmhlIytNmRZZG31lCDmU4AsFGUFpJ9wDq42HYRcpRfqZsc02zCCNxcEdCoyoRS1RBhtpkHoqB+FHtnsPmoH0aXMBsRPdCfQAUWi4AHWAE4DbfYUIDLiqBcWkECJWZx3cHXFl9t2uxfBfIcXe0Lg3169FzWFU0eiWum5Rl5Rddz6jsxEQIANr7mR1WIYNsaPRn9Q9zIpVwkJqseS0m95N/otxxqL4PPl1TyqpAY/wB3zXRnmj2Cw+yFV0H2aqCEArKkLpulAUKqcEC97oqAy0boAoQhCgM7WSQNJKFNtNkxAsPh0WujBoqOgSsoANqWJVoE4lp/13SgGwyJUAHCOziBrFouhbM+LpmBLidfkozUWJpMHoqgxqEBzFpzDzHMKFNzHSARvdUyJyZ35CYbEx/Lp2Xm1OSUFwfT9M00M03vfXj5BqubTdlzWNwP49OymnyuS+0a9S0kMU7x+fHwNXpPlgFAAQhQCoUx4/3fNRmo9i8OdEQfZvpCypDPXF1SB02whAhTCoCa0BASo2QhAKTi6wgQN7qrkrpB1GuaJsfgji0RNMC7gDoQfloVEV8DqOJcSJLToNI37qWGkaA17i7KWgNtcTJ9bBefLqNkqo+jo/TXqMbnuoKg/M0HRehO1Z82UdraCc4DUq0ZKcZBhUFUpi/lOqMC8WwkW25rLVmotGIPgxF1UVj4QhRCAbhq1spsRp1A+qga8kGGdUGfNl3pj6nuvFm1CvbXHk+7ovTZbPcupeAPC6bczs96l5zct4XPM3S2/dPToYw3y9x3Pz/guiRLsvuA2nnuB0XswuTh9o+JrliWZ+10MK6nkE8SdGuI5gGFzeWCdNnphpM0lujF0AKk6AnsCUeSK7ZIabLNXGLZkxzvZ84M2Ktpq0ZcHCW2SpgUmWCqMs6FPRUguoYVIC58KkLe4jRAUKpQFcUp/QDcKyHeV1qPZJdDMWPZ6SJWpdEj2IbTOmy5mh9KsBALQDpmERO08kRGg2sk6kTrBiehUnjjLlo6Y9RlxpxhKkx8BosLAaKo4sW9wPOVoBUBqfJRgJ1QCyUBdSoCN+iqQM9QyQBtM9J2WWaXCEOBBTkD6dwgCdR3/AoyoumXCWtdE/hy8j081xlhjOSbPbh1+XDjcI9foNOHbAEWHr6rtSqjxKcr3XyFCGQShQcLjGsYGuDpEiwkanRfPy4JuTl4P0uj9Qwxwxxu7r4E+G4sUwQ4OkuJHslMuJza2mdJq4YIP3E1y/Bh8RdOY7F8ieUBerHFxgkz5Opyxy55Tj0y6Og7LqjzM209EMi6glUA5BKpAyJIGmpMIlbAz9MOZ9St7UZ3MsYYcz6lNqJuY2nTA0WkqI3YeVAKbhGzNo5JtXwNzEVsGdvIhRxTNKQyjUzCd9+hWExJUzZTdI+aj4IDwR1jkruAdlAZaz2yc5dFoyjXuddVejSXwKe5hH/jzzzJMAdip9C1XYJcG2hCEY+ToloUbKdNQpKr1SGN1Mf107KUWzRh68+y73ufPr3QjXwOKEAKpRL3Q5hOgdJ3tBGgXHNFyg0j16HJHHnjKb4Cx2Ka/KGyYMn2SLQeYXm0+KcZW0fU9S1mHNi2wlbv8TneIj2fNex9HxI9lUTYKoPs0sxDR+4ISmDVdyVIVTfz0VIFm/cDcImPwHsxLd7HquikjG1hMrtJibpa6FPsZUbuqQXxyRaw5m5+yw5fBraVSrwJ1HPlzVUiOJtYZWjJz8gbUPJwsTa8zHmsNUzd2jbSbA73WWQNQAVQCNYWkQRVpgb3lp/9gjfBV2Ipj5BZRtiaskgTEmJO3VZyScY2jrp8ayZFFurN2IwjaYa4G4gGf3T9V4sGeTnTPua/0/DDDujw1+YdSovoH50zOfdAUSgF1SN0KCGg6Ez3KlCxhrP/AOPp90FIlOsTrHooWga1UxaELRixbyReNdlGaiVS0CIj7PY+E+KUW4djXVGhwZBB1lfHzYMjytqL7Pg6jS5pZpSUXVnmTECV9mPSPt+CPdBBiYM+i0Ua+tndMRaI1PmUICKfW3JCC6lOO23RQ2nZtwji5hnW4/2usXaOUlTM7Y9idJhw7CL+awuzfyba2E3ZY8tittHNS+Q8JQIF7XNtbckSoSdi/EaQygAXLh+eikuiw7MFCsWTG+3XmsG+zU+u8Am2nJ39LPJKQn9QNmnzgeuq25E2i6lUu1NthssmkPoMtZUhqbREXGuqAz8ODqTHug/tHRYjjjF2kdsmoyZIqMnaRRddbo4iXUinYFO6o7KUTKnLBG66qoB8S8IBtMKFKrBQphxenmozUeyqWyhH2dGjotEFVwqQGl1RdEYwECw+F1RRbqkagjuIQUCxr33aLd4H3SwRrnMdex+Y/N1UyUaxQDwXNOurTz37FaavkzdcM24ZpDQCtGWOQhh8SHuHaT8QYWZG4GUsHJYs0AaQ2CC2JhRlCpslQHRpU8oWgDUqIQwvqGUugB8/qoUIvN5tfopZaQ2iwGS4Zp0nQAb/AJyWkvkknXQ0Mb/BvorSM2wMo/i3tASkLZnrUw3W28rD4Oi5GUShCVkKYcXp5qM1HsqlsoR9nRoaLRAHqkF0hJ0tr3+yLkPhGhlG/shosduoVaM7hrcPcZspA2ifopQs0tGypkz14JvEdQrQtmdzxTcC2ZtIuQR56KXTNL7SNTvFBNgT1Wt6JsY3C48OdliFVKzLjRrewEQRIWjJzK9EsIGrTodx0K5tUdE7AUAptFzn5W9ydgFyzZVBWz26PST1EqXXlmqkzKcrveGnIjmExZYzVomr0k9PPbLrwyVaq6nkMdV8o+AU1pdp67f7V7HQ6jQgybnbpz80RGzRQcLwR27I2SmE+neZgbpYEbK+QQNkOdmykTa0RFp7rJsVXrgjKNTryHTup2EqKoA7oylVzChTn4k2UZqIVLQKEfZ0aGi0QB6pAsDTOtouFEJM2SBPqtGDTUwFRtIViW5bEtgyAd8256QvFHWxlk2UeOGshLL7SX9TLxTyC91HrLY4E6X+aMGfGAA8rBZbNxFMpA66pQsttNu2o35K0LOrgqhcwE66HyXRco5NUwPEKZLQQJgzCkuixfJzqbybxblv+dFzs60aWvLTnZedRs4f2uObCsi/E9mi1stNL8PKM9au4nO7XQN2aPqVcOFY0TW6yWpnb68IQ506rrZ46Losk30An4gD5qoj4NgGw8lTAx9CxvePipZV2C5zS1rWsIcCJMaRrfdeLFiyLJb6Pv6vWaaemUILn9CNpmD2+PNe+z4BTG3FvVQCsewEDvE7rLNxMjaaIrH0my5rZiTEjXQn6Lnlm4QckenR4VmzRxvpjPFMHkAOYmTF45dF58GeWSVNH0df6dj0+PfFvvycivovSz5Eew6QsEI+zqYai8tBDHkG4IaSFh58adNnGWbGnTkrEkrsjoFQdDhydqPqgfKGsOhPWfNbOZp9rKGF7iwGQwn2f7jouCwY1LelyYWKClvUVfyKLI1IA5/Zd+zYbad9R5KWBlRgcIIkFZF0c3EUiw6yDod+xVs12FQbaVQacJiwwZXDmRF5VUuCONvg6NCoHCQtWYqhGLwupaO45rDVm4yOU2r7UbbzzWTbGvbIVMiOGUoWE12W/OxHmg7CbiiDMA+ZTkUjaMSwx7Qk7bqE2sYqQpAUgM2KEgReDe6jTNRZkzRY2Q0xjWzzG4IMHyIUkk1TNQnKDuLpgYmd3OP/AGcSPisqEY8pHSefLkVSk39WYK+iMxHsdRbp2RGX2eu8K8dpMoMpuD8zW5TDCRPdfJzaTLLI5JcWfE1GgzTzSmqpv5POBfXiqSPsroumJe2NrntC0PBrFHrbktWYAfWMmJgakCQO5TgtDniRZEQGiy8xCrYHrAObi62Y20GnXmUNJUVSfb5RcmdgEbSVsMe2ncggtcNQRBHcKRlGauLJGSatO0QVywz69VU6NVZ0qeIDgDOq6o5MtzAdgqQ5tegWHm31j7LDidE7FcVvP6LJaZKjJQANo804ALR9f/orJo6RqiY/16rdM5iTiRJtoSNWjTuVmzW0F+JabSAepbp0Mqpom1gjSYtH1tBVBmxLNx2P9qM0hlIKMoGLUKc+voss1Hs0YbbsiMPs309FQZ6gg6rSIMwdWJnc6qWGjXVdeNFpGAGVXNDoAMnU7Ej4qltF0XGwF9vwpRLJXxWXQZuazZpIx1MQ52ptyFh/ZVL9CxTJ7KkOh4Q5lKqH1Gy2In+Jn3oXj1mOc4VA8usxzyYqg/8AJp/yLxCm+o3hiS33nj9wj3evdcdBinBNy6+Dj6dgyY4tz6fj9zlB4dqF9E+gQ028ggsZTqub7pkcj9Cqm0RpM008WHWNjyP0W00ZcWg3gclSGF9MtNrt+I+yw4/BtO+wOJ0PopTKLfEh0GxBvYfZRryVPwNNa2hBi1vqFbIoi2sIEA/P+1mjVlhvO/51Qli3PLTA05HT7J0OwalWdo+JRsqVD6JRgrEBQpzcQLKM1E2UBYdlEc32a6eioFvbdUgIEW9D9D/ahRlCrtaNgfpK1FmWjU11jbytBVMiKtcxAI7D8sjo0l8iddLLKNBCgtENVOkgKrPgIDnrJRtFm60lRGLeZKeaBeQjZOQNe4aH/SoG08VFneo+vJaUvky4/A/MtmQZQFOUKZQIMbaj6hc2qNp2EoUiEF1KcqFFkAKgdTkkBsS4wJsNCfoueSahG2d9PhlmyLHHtl4/D1GAF2WCY9kkn4hcseojkdJHr1XpuXTQ3za/p/o5eI0XVnhibaAsOwURyfZrZoqAXKgF2ipBebpKAtjAf2hKFhOcBYBUDWBUpoYyLlQCcRX5JZRFOoTb0VRAQIu4dlQGxxO0BAVUpzoUAb3QFGEgM3T5JZaAgTrCWRonCm7Sp9C38hUKpByn7rcZeGSUfKNRWzAFSmDqo1ZU6M1SRY+v9hYao1wxJKzyaLa7kVbDQb2SjIMoS0tI1aZvpoR9VzyQ3x2no02d4MiyJXQ3H4pzwA4NABm0nZccWnWN3Z7dZ6nLUw2ONHLxTbea7s+dE10AYFjpyXOzk+zQ2evoqQq/I+itgFh15LSIE14VsFvFrICogSbnS1yTsB1Vbop0avh1WkxtSo32TqBqzlm6fJeTHrITm4fxnlxazFkyOCf0/EzYh9rL1nrMDioUZRGpWl0QaTuhBJBcTGnMmB91Sk/THmPQ/NKYtDDQnUnbS3+0qxuof+j/AOR9As0Nws4UNJJvO8LSSI5MCtAhw2MEjkRv5j4o+CrkGpHvA30/AiAbMR/L12+y0pfJHH4Dc8DUhUlAOqDmPVLQpiXVByUtGqLp+6Oy5lfZChQqaAqsoUw4vTzUZqPZvwfujsPksI4vtnrPBvD8O7DU3PYwuLJJMTN9V8bPlyLLJJurPgarPnjnkot1Z5plOWi6+1F8I+4ViKRmR+d1r6FF06RN406qcgJrwVUyjwIggwQZB5EaFSUVJUyOKkmn0bsf4/Uq0+HlymIqOH7hyaNpXhxaBQnub48Hgw+nQx5N7drwjlr6J9ES6nyQpHssAFQQt9mEBMK/aOs99ii7ElxZrpsnff8ALq9GBrWAJZSnVQEoFsfKjQAqUzMj8+y0mDnNpRaII1/OS5rg6N2EGeXRaVEA/Tz0UaKmUaEXmUSG4mUnaUogRpxpYKiwnuhQpdB0oCYgqFOdX0UbNR7PQ/4rg2Va2SoJaKJdEkXDmCbdCV4NZkljxpxfn+58z1DNPFi3QdPdX5M3eIeEUW4yhSayGPDi5sm8NJG68+PPkeCcm+VR5sOqyy0uSbfKqhv+ReGUqIpGk3LLyDcm2QmLnmF00OfJkm1J+B6fqcuaUlN3x+5zZX0z6gIrtgnl0v0t1U3LsBYvA1GNbUezK13qOWYbSvPDU45zcV/s44tViyTcIvlfn9DMH7L0pncoqgz5jEJZS6b4VTso5AKcZMQT2E32HfvZCro1U6EC+vTQdOvdVcGW7HNEJZC5QCnUjtHmrYKFQAQCCd0u2KGUnSEYE4gA9CN9uxhSip0ZywtNyCCLEWFtRHn8VKNXaCVIURKArQICs0oUzOKyyj8OLKgmJKhTBiDZRs1Hs6OFZIGvu6gkH1C5Un2cH3Ro4Q6zzkyOxmQrS6onHVBtpjqe5J+ZVSS6ROF0h2H4fEZxp4c+1ynbN/xXLUe48b9vs5Z/c9t+13/Ojpf5VVp56fBE4iW5QyCMuwcNCI0XztIpbZb/ALvk+d6fHJtl7nEPN/P4FeIeOPqM4OQsdpWkC3Qd+a66fRrfvu14N6bQRjP3LteDjYimG+0OgI+q+mfUFtdK0UCqzdAJWTQdMk2HryW+wPp0ySGttvfoRJ73Wlx0Tvkexxkg6jlpcSFAy6j4VRAGOJOvfkgDqXBAN4KjB0MdjaL6DKbKZDxl/bGWNfa3lfLwafNHNuk+D5un02eGdzk+P1MK+ofSMdd+TW/b5lVsqVmZzy7XbQDZTs0PGiEKe6AhRL6siFLFA03QiKyqhul0KH0SjBWIUKYMRoozUezqYQWHYLkjzvtjX1ANT2G57BUUNxDXUyBVaWEjM3NFx/axjyxyXtZzx5IZU3B3QS6mzR4JiGUK2d7RlcA3NuyN/wDrt0heTWYJZIfZ/wDPk8mtwzzYqg+V4+Rni+ObWq5qbRlaIz7v+wTRYJY4/affgmh088OP7b5fj4OZjHG/Ky9j6PYLa3dUpZQpne2EZUHQeRbbXsfz5K2WrNYYCBBMjcWKtk6KcMum+p1KqDI2SDPkVQAQeR8tEIFScBeR2kKNloJ9X+JB7X+CIUJdiIm8mNNb7aaI2VIRmnz1J/Nflooa6IKd5VMhPNrIBT5sjKUKZUooUAIAQ0G6AdTUArEOQpir6LLNR7OrQMMBP8R8lyR5n947VPDcPDNrZQ4uqML4GYhgcIA6818+eT3MzjfSdfU+ZPL7uoeO6pOvrR0sfXbXxOHbTAeG5nPMS0NIggnmvPCLx4puXHweXFB4cGRz4uq+p5+uwU6r6Q0afZ7HQeS+tgyOcE2fZwTeTFGb7ZF2Ohow+ArPYHspEtIkGWi3aV55avFCTi3yeeerwwk4ylyvqZRDgDC9V2ekzvbDiBpqoUioFPZJVKXEaIUptUgyBpqOfROS8B1MUOZHSFpMlAOxZj2fU7IypC3Yh5BE/BQtFh9t/Q/2oUCpeNfl9UBRC0/wIUHFZsUMZUlWyBuKoFsqc1Oyi8xSxRYaSn1AxjEA5ohQpjrOuowZq+ijNROtH/it/EfJcTy/9j3HgviTKtFtwDEQ4iTlHtGy+JmxOE2fnNTp5Y8r/n0LwVKlSzcOGjNJ9qcz3XAMm2yk3Odbv4iZZZMtb+XXx0keW8Ux7a1dzmizWhu2smYjsF9XSY3jhyfc0eF4sVPyJles9J1fDP8AIjTosp/p6r8rcuZo9k9Qvl5tKpZHLelyfK1GgWTNKfuJW+gv8c8Cp1qDaj3VASXCGugWeQLR0TUazJinsjVKv0Gt1+XDmcI1Srx+BwnM9pwv7LnNB6BzgJ9Avpxe6Kb+EfWg7in8pP8AItrbLZossVKAWIAG0byqUjqCFOz/AI34BTrsqOqF8tflGV0CMrTy6lfN1mryYZqMfg+V6hrsmnmowrlXz9WczHYJtOtUY2SGOgSZPug3PmvZpsjniUn2z3abI8uGM5dsS1q7nctzUBOGCEAJw4QBNpAIC+GoAeEFbBRpjogN3gfhzK9bhvLsuVzvZMGQRF/NePWZ5Yobonj1+ongxbod2O/yPwunhn0wwuhzXE5jNwWxHqVjRaieZS3eDn6dqp6iMnOuK6/qcWrVXuPomUlQCq2ijNR7O1h/db2HyXnPHLtlOY4NhriBJMbX1gqOEW7JUW7a5BFatmz5/atJ7aW0mFn24VVD28W3bXBKfsiy6pm7G8QLdls9J4N49Qp4enTe4hzWQRlOt+i+Pn02SWWUkuLPiarRZsmeU4rhs83hMW9rQ1tR7RcwDAkmT819R4McuZJWfXnhxTdyimxVQwdep6kzJ+JXWq4R2XBQqKlshqKlBNRUoJroATiEKXQx9Vk5KjmAmSGmATET6ALnPDjm7krOeTBjyO5xTBOKJJLiSSZJOpPVbjGMVSXBuMFFbYqkT9StGijiEsE/UlAT9QUsFccpYK455qWCuMgK4qFDo4t7DmY4tdES0wYOyxPHGaqSsxPHDIqmrRWJxlSoQaj3PIsMxmJ1+SkMUIfdVEx4seO9ioQSuhsElCi6uijKjs0KoytuNBv0XmPHJO2HxW/yHqqSmLNQcx6qFpg8Qcx6rRaYJqDmPVU1TK4g5j1VLTK4g5j1VQpl1KonUaLXktAcRvMK2WijVHMJZaZRqjmFbLQp7xzRstMEvHNC0yi8c0LTKzjmqKZM45oKZM45oKZM45oKZM45oKZM45pYpkzjmliiZhzQUTMOaCiZxzQUVnCCisw5qCisyFoXUKhULQ0RARARARARARARARARARARARARARARARARARARARARARARARARARARAf/Z" alt="concepto" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Mapa Dota2</h3>
+                <p class="px-4">oda partida de Dota 2 comienza de la misma manera, con dos equipos —Dire y Radiant— en esquinas opuestas de un mapa cuadrado y totalmente simétrico.
+                  En el medio, hay un río que cruza en diagonal el mapa y lo divide en dos sectores claramente diferenciados.
+                  El objetivo del juego es muy simple: Destruir la base enemiga que contiene una construcción llamada Ancestro (por si aún no lo sabías, Dota viene de “Defense of the Ancients” o defensa de los Ancestros).</p>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="data:image/jpeg;base64,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" alt="comunicaciones" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Torres y Creeps</h3>
+                <p class="px-4">En primer lugar, cada bando cuenta con tres torres que constituyen su primera línea de defensa y atacarán a todos los integrantes del equipo contrario.
+                  Además, cada equipo tiene dos barracones. Cada 30 segundos, de ellos saldrán unas criaturas llamadas “creeps”, los cuales atacarán estructuras, creeps y héroes enemigos..</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="https://www.a90skid.com/wp-content/uploads/2023/07/dota-2-heroes.jpg" alt="seo" width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Heroes</h3>
+                <p class="px-4">Son los héroes del escenario personalizado Defense of the Ancients quienes por sus atributos primarios y habilidades son diferentes unos de otros, esto hace que su modo de juego y poderes sea distinto en cada uno de ellos.</p>
+            </div>
+        </div>   
+    </div>
+</section>
+
+
+<section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Esport Doota 2<span class="text-primary">Convirtete en Profesioanl</span>.</h1>
+        <p class="fs-4 ">Hemos estado explorando varias posibilidades de fechas, pero es probable que el evento deba realizarse en 2021”, dijo Valve en su declaración sobre The International 10.
+
+          En vista de la incertidumbre sobre la trayectoria del virus y las políticas de viajes globales, Valve dijo que no se sentía cómodo comunicando fechas para el futuro cercano. Con el aplazamiento de TI10, el Dota Pro Circuit (DPC) restante también necesita una renovación y el desarrollador prometió compartir detalles al respecto lo antes posible..</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <img id="img-equipo" src="https://resources.esportsinsider.com/esportsinsider/2020/02/675-5e58da7226712.png" alt="equipo">
+    </div>
+
+    <div id="local" class="border-top border-2">
+        <div class="mapa"> </div>
+        <div>
+            <div class="wrapper-local">
+              
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Felicidades a Team Liquid, los grandes campeones de The International 2024. Después de perder solo tres partidas en todo el campeonato, el implacable equipo de Liquid arrasó con un grupo de temibles contendientes para ganar rotundamente el título del mejor equipo de Dota del mundo.
+
+                  El camino de Team Liquid hacia la Égida comenzó sin problemas con un par de victorias 2-0 en las series contra Aurora y beastcoast, pero una derrota 0-2 ante los defensores del título, Team Spirit, les recordó a todos que el camino a la inmortalidad está lleno de enemigos formidables.
+                  
+                  Su próximo oponente solo demostraría ese punto aún más. Con Team Liquid manteniendo una ventaja de 1-0 y el grupo ganador casi al alcance de sus manos, el modesto BB Team se impuso en la segunda partida de su serie de clasificación, amenazando a Team Liquid con un camino más difícil en el grupo perdedor. Sin dejarse intimidar, Team Liquid aprovechó la acción temprana en la tercera partida para construir una ventaja inminente y, en última instancia, asegurar su lugar en el grupo ganador para comenzar la siguiente fase.</p>
+                <section class="d-flex justify-content-start" id="numeros-local">
+                    <div>
+                        <p class="text-primary fs-5">Carry POS1</p>
+                        <p>Michael "miCKe" Vu</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">Mid Lane POS2</p>
+                        <p>Michael "miCKe" Vu</p>
+                    </div>
+                    <div>
+                      <p class="text-primary fs-5">Off Lane POS3</p>
+                      <p>Neta "33" Shapira</p>
+                  </div>
+                  <div>
+                    <p class="text-primary fs-5">Suport 4</p>
+                    <p>Samuel "Boxi" Svahn
+                    </p>
+                </div>
+                    <div>
+                        <p class="text-primary fs-5">Suport 5</p>
+                        <p>Aydin "Insania" Sarkohi</p>
+                    </div>
+              </section>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+  <div id="bg-contactos">
+    
+  </div>
+
+
+
+
+  <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactanos</h2>
+        <p class="fs-5">AHORA JUEGA DOTA YA!</p>
+      </div>
+
+     
+
+      <form   method="POST" data-netlify="true" action="#">     
+            <div class= "mb-3">           
+              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+            </div>
+ 
+          
+            <div class="mb-3">            
+              <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+            </div>
+      
+
+            <div class="mb-3">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+            </div>
+
+          <div class="mb-3">       
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          </div>
+      </form>
+  
+  </div>
+</section>
+
+
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+ 
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>  
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
